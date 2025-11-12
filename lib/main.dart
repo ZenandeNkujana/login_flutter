@@ -23,8 +23,29 @@ class LoginScreeen extends StatelessWidget{
       appBar:AppBar(
         title: Text('Login'),
       ),
+
+      body:Column(
+        children:[
+          TextField(
+            decoration: InputDecoration(
+              hintText: 'Username',
+            ),
+          ),
+          TextField(
+            obscureText:True
+            decoration: InputDecoration(
+              labelText: 'Username'
+            ),
+          ),
+          ElevatedButton(
+            onPressed: (){} 
+            child: Text('Login'),
+            ),
+        ]
+      )
       
     );
+
     
   }
 }
