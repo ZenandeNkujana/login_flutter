@@ -15,5 +15,19 @@ class MyApp extends StatelessWidget{
   }
 }
 
+class LoginScreeen extends StatelessWidget{
+
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar:AppBar(
+        title: Text('Login'),
+      ),
+      
+    );
+    
+  }
+}
+
 
 
